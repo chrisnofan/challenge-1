@@ -1,13 +1,23 @@
+/**
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+
+styling for classes starts with a . selector and ID starts with a # selector
+
+**/
+
+/* Styles all the element of the page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*styles the body with background colour*/
 body {
     background-color: #d9dcd6;
 }
 
+/*styles class header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +25,7 @@ body {
     color: #ffffff;
 }
 
+/*Styles header class and h1 tags */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -186,6 +197,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+
 }
 
 .footer {
